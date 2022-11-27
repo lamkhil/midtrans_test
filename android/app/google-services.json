@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "620385933090",
+    "project_id": "midtrans-test",
+    "storage_bucket": "midtrans-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620385933090:android:61c0e554c14d7abb4af77b",
+        "android_client_info": {
+          "package_name": "com.lamkhil.midtrans_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620385933090-f34seg97q141pt76qrlskb28r6naano6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdOnuqGPwOKKa-9ycAD5sy2g0LQhrJz_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620385933090-f34seg97q141pt76qrlskb28r6naano6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+{
+    "id": 1,
+    "name": "Lamkhil",
+    "email": "lamkhil3000@gmail.com",
+    "phone": "0909080",
+    "foto": null,
+    "fcm": null,
+    "email_verified_at": null,
+    "password": "$2y$10$Ir8ObhERouyZU1ktsj2nPuoXBCukRnCq8okmHr0qMzDJQE0yo5I3u",
+    "remember_token": null,
+    "created_at": "2022-11-26T20:46:29.000000Z",
+    "updated_at": "2022-11-26T20:46:29.000000Z"
+}

@@ -1,0 +1,19 @@
+{
+    "status_code": "201",
+    "status_message": "Success, Bank Transfer transaction is created",
+    "transaction_id": "6e2f7f2d-dac5-4645-995f-216eb7bad337",
+    "order_id": "CXS20221127005658",
+    "merchant_id": "G111368146",
+    "gross_amount": "50000.00",
+    "currency": "IDR",
+    "payment_type": "bank_transfer",
+    "transaction_time": "2022-11-27 07:56:58",
+    "transaction_status": "pending",
+    "va_numbers": [
+        {
+            "bank": "bri",
+            "va_number": "681461777245575661"
+        }
+    ],
+    "fraud_status": "accept"
+}
