@@ -1,6 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.lamkhil.midtrans_test">
+    <uses-permission android:name="android.permission.INTERNET" />
    <application
         android:label="midtrans_test"
         android:name="${applicationName}"
