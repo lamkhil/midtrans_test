@@ -16,25 +16,16 @@ class BerandaController extends GetxController with StateMixin<int> {
   TextEditingController nominalController = TextEditingController(text: "0");
   final appController = Get.find<AppController>();
   final formKey = GlobalKey<FormState>();
-  late StreamSubscription onMessage;
 
   @override
   void onInit() {
     getSaldo();
-    FirebaseMessaging.instance
-        .getToken()
-        .then((value) => AuthServices.sendFCMToken(value ?? ''));
-    onMessage = FirebaseMessaging.onMessage.listen((event) {
-      //delete soon
-      Get.offAllNamed(Routes.HOME);
-    });
     super.onInit();
   }
 
   @override
   void onClose() {
     nominalController.dispose();
-    onMessage.cancel();
     super.onClose();
   }
 

@@ -41,7 +41,6 @@ class PaymentMethodController extends GetxController {
       Get.back();
       if (result.bankTransfer != null) {
         Get.offNamed(Routes.BANK_TRANSFER_VA, arguments: result);
-        return;
       } else if (result.ewalletModel != null) {
         final launc = await launchUrl(
             Uri.parse(result.ewalletModel!.actions!
